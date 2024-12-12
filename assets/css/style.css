@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "BYekan";
+  src: url("../fonts/BYekan/BYekan-webfont.eot") format("eot"),
+    url("../fonts/BYekan/BYekan-webfont.woff") format("woff"),
+    url("../fonts/BYekan/BYekan-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  direction: rtl !important;
+  font-family: "BYekan";
+}
+
+a {
+  text-decoration: none !important;
+}
+
+input::placeholder {
+  font-family: "BYekan" !important;
+}
+
+button {
+  font-family: "BYEKAN" !important;
+}
+
+.m_0 {
+  margin: 0 !important;
+}
+.m_1 {
+  margin: 0.5rem !important;
+}
+.mx_0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.mx_1 {
+  margin: auto 0.5rem !important;
+}
+.my_1 {
+  margin: 0.5rem auto !important;
+}
+.pb_1 {
+  padding-bottom: 1rem;
+}
+.py_1 {
+  padding: 0.5rem 0;
+}
+.pb_0 {
+  padding-bottom: 0 !important;
+}
+.py_0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.px_1 {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+.px_2 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.text_shadow {
+  text-shadow: 0 0 5px black;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.justify_text {
+  text-align: justify;
+}

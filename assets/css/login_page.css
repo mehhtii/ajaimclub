@@ -1,0 +1,49 @@
+#login_section {
+  background: url("/assets/images/login_back.svg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: calc(100vh - 44px);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+.form_box {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 191, 88, 0.4),
+    rgba(0, 209, 255, 0.4)
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(0, 191, 88, 0.4),
+    rgba(0, 209, 255, 0.4)
+  );
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 200ms linear;
+  text-shadow: 0 0 2px black;
+  margin: auto !important;
+  padding: 1rem !important;
+}
+.form_box input {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.form_box label {
+  left: unset !important;
+  right: 0 !important;
+  width: auto !important;
+}
+
+.register_form_box {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
